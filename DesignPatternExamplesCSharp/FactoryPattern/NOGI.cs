@@ -2,9 +2,9 @@ using FactoryPattern.Interfaces;
 
 namespace FactoryPattern;
 
-public class GL : IFactory
+public class NOGI : IFactory
 {
-    public decimal CalculatePremium()
+    public decimal CalculatePrice()
     {
         return 1000 + 2;
     }

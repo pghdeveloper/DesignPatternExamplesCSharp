@@ -2,9 +2,9 @@ using FactoryPattern.Interfaces;
 
 namespace FactoryPattern;
 
-public class PL : IFactory
+public class SAMBO : IFactory
 {
-    public decimal CalculatePremium()
+    public decimal CalculatePrice()
     {
         return 1000 + 3;
     }

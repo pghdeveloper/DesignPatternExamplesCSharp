@@ -3,12 +3,12 @@
 using FactoryPattern;
 using FactoryPattern.Interfaces;
 
-ApplicationTypeFactory factory = new ConcreteApplicationTypeFactory();
+UniformTypeFactory factory = new ConcreteUniformTypeFactory();
 
-IFactory bop = factory.GetApplicationType("BOP");
-Console.WriteLine("BOP: " + bop.CalculatePremium());
+IFactory gi = factory.GetUniformType("GI");
+Console.WriteLine("GI: " + gi.CalculatePrice());
 
-IFactory gl = factory.GetApplicationType("GL");
-Console.WriteLine("GL: " + gl.CalculatePremium());
+IFactory noGi = factory.GetUniformType("NOGI");
+Console.WriteLine("NOGI: " + noGi.CalculatePrice());
 
 Console.ReadKey();
