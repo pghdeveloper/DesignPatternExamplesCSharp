@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using WebApiDifferentPatterns.Logger;
 
 namespace WebApiDifferentPatterns.Controllers;
 
@@ -35,9 +37,13 @@ public class WeatherForecastController : ControllerBase
     //         .ToArray();
     // }
     [HttpGet]
-    public async Task<string> Get()
+    public async Task<IActionResult> Get()
     {
-        var client = _httpClientFactory.CreateClient("errorAPIClient");
-        return await client.GetStringAsync("api/values");
+        var ss = "HI";
+        //return BadRequest(ss);
+        throw new Exception("Exception Occured");
+        
+        //var client = _httpClientFactory.CreateClient("errorAPIClient");
+        //return await client.GetStringAsync("api/values");
     }
 }
