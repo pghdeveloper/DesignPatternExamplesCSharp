@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{0BA0311B-597E-47F8-9ED5-F236D11918ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDifferentPatterns", "WebApiDifferentPatterns\WebApiDifferentPatterns.csproj", "{BF9E3088-607A-422E-B72A-4D3AC7245F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0BA0311B-597E-47F8-9ED5-F236D11918ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BA0311B-597E-47F8-9ED5-F236D11918ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BA0311B-597E-47F8-9ED5-F236D11918ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9E3088-607A-422E-B72A-4D3AC7245F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9E3088-607A-422E-B72A-4D3AC7245F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9E3088-607A-422E-B72A-4D3AC7245F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9E3088-607A-422E-B72A-4D3AC7245F63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
